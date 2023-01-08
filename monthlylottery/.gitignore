@@ -1,0 +1,6 @@
+.cache 
+.env 
+cache 
+node_modules
+coverage
+yarn-error.log

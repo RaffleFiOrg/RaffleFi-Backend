@@ -1,0 +1,19 @@
+{
+  "name": "monthlylotterylistener",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx ts-node index.ts",
+    "start:prod": "node build/index.js",
+    "build": "tsc"
+  },
+  "author": "ctrlc03",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.1",
+    "mariadb": "^3.0.1"
+  }
+}
