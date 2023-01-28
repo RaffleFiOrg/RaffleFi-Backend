@@ -7,9 +7,10 @@ import { FunctionFragment } from "ethers/lib/utils";
 
 async function main() {
 
+    // test interval
+    // const interval: number = 1000 * 30
     // 10 minutes
-    const interval: number = 1000 * 30
-    // const interval: number = 1000 * 60 * 10;
+    const interval: number = 1000 * 60 * 10;
 
     const db_config = {
         host: process.env.DB_ADDRESS,
